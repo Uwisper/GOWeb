@@ -18,7 +18,7 @@ func reLaunch(){
 }
 
 func firstPage(w http.ResponseWriter,r *http.Request){
-	io.WriteString(w,"<h1> deploy server will pull latest file and relaunch!")
+	io.WriteString(w,"<h1> deploy server !")
 	reLaunch()
 }
 
